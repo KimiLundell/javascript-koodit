@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<p id="target1"></p>
-<p id="target2"></p>
-<p id="target3"></p>
-<script>
     "use strict";
     const number1 = parseInt(prompt("Type a number."));
     const number2 = parseInt(prompt("Type a second number."));
@@ -19,7 +8,3 @@
     document.querySelector('#target1').innerHTML = sum.toString();
     document.querySelector('#target2').innerHTML = product.toString();
     document.querySelector('#target3').innerHTML = average.toString();
-
-</script>
-</body>
-</html>
