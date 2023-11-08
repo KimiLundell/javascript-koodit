@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<p id="target"></p>
-<script>
   'use strict';
   const answer = confirm('Should I calculate the square root?');
   if (answer == true) {
@@ -20,6 +11,3 @@
   } else {
     document.querySelector('#target').innerHTML = 'The square root is not calculated.';
   }
-</script>
-</body>
-</html>
