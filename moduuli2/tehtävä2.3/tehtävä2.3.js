@@ -1,8 +1,8 @@
 'use strict';
 
-const ol = document.createElement('ol');
-ol.setAttribute("id","list")
-document.body.appendChild(ol)
+const ul = document.createElement('ul');
+ul.setAttribute("id","list")
+document.body.appendChild(ul)
 
 const namelist = [];
 
@@ -15,7 +15,7 @@ namelist.reverse();
 for (name of namelist){
   const li = document.createElement('li');
   li.innerHTML= name;
-  ol.appendChild(li);
+  ul.appendChild(li);
 }
 
 
